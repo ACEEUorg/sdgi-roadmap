@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png'],
-  base: '/',
+  base: '/sdgi-roadmap/',
 })
