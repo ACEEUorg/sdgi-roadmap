@@ -113,7 +113,8 @@ Timeframe for implementation: (12 months from 2025 03 01 to 2026 03 01)`,
       }
     ],
     pdfLink: "./pdfs/SDG-iLevel_WP6_KTU Departamental Roadmap_EN.pdf",
-    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_KTU Departamento planas_LT.pdf"
+    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_KTU Departamento planas_LT.pdf",
+    pdfTranslationLinkGerman: "./pdfs/SDG-iLevel_WP6_KTU Departamental Roadmap_DE.pdf"
   };
 
   return <DepartmentLayout {...departmentData} />;

@@ -19,6 +19,7 @@ const DepartmentLayout = ({
   measures,
   pdfLink,
   pdfTranslationLink,
+  pdfTranslationLinkGerman,
   introduction,
   socialLinks
 }) => {
@@ -33,6 +34,16 @@ const DepartmentLayout = ({
             <div className="mt-4 lg:mt-0 lg:ml-4 flex flex-col lg:-translate-y-4">
               <p className="text-sm text-slate-600 mb-2 text-center">Download Roadmap</p>
               <div className="flex gap-2 justify-center w-full">
+                                <a
+                  href={pdfTranslationLink}
+                  className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-sky-700 text-sky-700 hover:bg-sky-700 hover:text-white transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ReactCountryFlag countryCode={countryCode} svg />
+                  <span className="font-medium">{language}</span>
+                </a>
+
                 <a
                   href={pdfLink}
                   className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-sky-700 text-sky-700 hover:bg-sky-700 hover:text-white transition-colors"
@@ -42,15 +53,16 @@ const DepartmentLayout = ({
                   <ReactCountryFlag countryCode="GB" svg />
                   <span className="font-medium">English</span>
                 </a>
-                <a
-                  href={pdfTranslationLink}
+                                <a
+                  href={pdfTranslationLinkGerman}
                   className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg border border-sky-700 text-sky-700 hover:bg-sky-700 hover:text-white transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <ReactCountryFlag countryCode={countryCode} svg />
-                  <span className="font-medium">{language}</span>
+                  <ReactCountryFlag countryCode="DE" svg />
+                  <span className="font-medium">German</span>
                 </a>
+
               </div>
             </div>
           </div>

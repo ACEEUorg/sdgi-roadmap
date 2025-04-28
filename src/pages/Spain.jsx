@@ -16,16 +16,27 @@ const Spain = () => {
     countryName: "spain",
     universityName: "Universitat de Girona",
     departmentName: "Subject-Specific Education Department, The Faculty of Education and Psychology, Josep Pallach Institute of Education Sciences",
-    introduction: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    introduction: `The UdG roadmap contains four measures to help academics to embed the sustainable development goals in their work activities. These measures involve different scales of the university and, for this reason, they will be led by the Faculty of Education and Psychology (FEP), the Subject-Specific Education Department (SSED), and the university as a whole (through the Josep Pallach Institute of Education Sciences (ICE-SAID)). 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+The Faculty of Education and Psychology of the University of Girona does research and develop theoretical and practical knowledge related to education, health and care giving for people and communities. The studies at the faculty comprise 6 bachelor's degrees, a doble degree in early child and primary education, and 10 master's degrees (4 own masters and 6 joined masters). The aim of the faculty studies is to promote critical, reflexive and cooperative learning in the fields of Education and Psychology.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.`,
+The Department of Subject-Specific Education of the University of Girona is comprised of seven areas of knowledge that aim to provide teaching and educational research in seven different fields of knowledge: mathematics, languages, music, the visual arts, physical education and social and experimental sciences. The members of the department take part in two bachelor's degrees (Early Childhood Teacher and Primary School Teacher) and in two master programmes (Master in Secondary Teacher Education and Master in Inclusive Education addressing Diversity). They also participate in the Doctoral Programme in Education.
+
+The Josep Pallach Institute of Education Sciences (ICE) aims to contribute to the lifelong learning of academic staff from all educational levels, technical advice in the field of the educational planning, and pedagogical and research innovation. The institute in its goal for promoting innovation in education supports the creation of networks and working groups. The Teaching Innovation Networks (XID) are created around themes related to the priority lines of training at the University of Girona and in accordance with the interests of the UdG teaching staff. They are made up of members of the teaching and research staff interested in undertaking an advanced training process based on reflection on their own teaching practice.`,
     socialLinks: [
       {
-        title: "Department Website",
+        title: "The Faculty of Education and Psychology",
+        url: "https://www.udg.edu/en/fep"
+      },
+      {
+        title: "Department of Subject-Specific Education",
+        url: "https://www.udg.edu/en/depde"
+      },
+      {
+        title: "The Joseph Pallach Institute of Education Sciences (ICE)",
         url: "https://www.udg.edu/en/ice"
       }
+  
     ],
     teamMembers: [
       {
@@ -129,7 +140,8 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
       }
     ],
     pdfLink: "./pdfs/SDG-iLevel_WP6_UdG Departmental Roadmap_EN.pdf",
-    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_ UdG Departmental Roadmap.pdf"
+    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_ UdG Departmental Roadmap.pdf",
+    pdfTranslationLinkGerman: "./pdfs/SDG-iLevel_WP6_UdG Departmental Roadmap_DE.pdf"
   };
 
   return <DepartmentLayout {...departmentData} />;

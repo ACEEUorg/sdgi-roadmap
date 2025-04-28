@@ -4,6 +4,7 @@ import Croatia from "./pages/Croatia.jsx";
 import Lithuania from "./pages/Lithuania.jsx";
 import Article from "./pages/Article";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                     </Routes>
                 </div>
             </main>
+	    <Footer />
         </div>
     );
 }

@@ -150,7 +150,8 @@ The curriculum across all study programmes emphasizes contemporary educational t
     }
   ],
     pdfLink: "./pdfs/SDG-iLevel_WP6_UNIRi Departamental Roadmap_EN.pdf",
-    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_UNIRi Departamental Roadmap_CRO.pdf"
+    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_UNIRi Departamental Roadmap_CRO.pdf",
+    pdfTranslationLinkGerman: "./pdfs/SDG-iLevel_WP6_UNIRi Departamental Roadmap_DE.pdf"
   };
 
   return <DepartmentLayout {...departmentData} />;
