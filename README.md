@@ -1,4 +1,4 @@
-# SDGi Roadmap Project
+# SDGi Roadmaps Project
 
 A React-based web application showcasing departmental roadmaps for implementing Sustainable Development Goals (SDGs) across three European universities.
 
