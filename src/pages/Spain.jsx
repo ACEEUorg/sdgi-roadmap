@@ -140,7 +140,7 @@ The Josep Pallach Institute of Education Sciences (ICE) aims to contribute to th
       }
     ],
     pdfLink: "./pdfs/SDG-iLevel_WP6_UdG Departmental Roadmap_EN.pdf",
-    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_ UdG Departmental Roadmap.pdf",
+    pdfTranslationLink: "./pdfs/SDG-iLevel_WP6_UdG_Ruta_Departamental_CT.pdf",
     pdfTranslationLinkGerman: "./pdfs/SDG-iLevel_WP6_UdG Departmental Roadmap_DE.pdf"
   };
 
