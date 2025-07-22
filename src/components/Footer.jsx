@@ -6,16 +6,18 @@ export default function Footer() {
         <footer className="bg-white border-t border-gray-200 mt-auto">
             <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
                 <div className="flex flex-col items-center space-y-6">
-                    <img
-                        src={euLogo}
-                        alt="Co-funded by the European Union"
-                        className="h-12 w-auto"
-                    />
-                    <img
-                        src={ccLicense}
-                        alt="Co-funded by the European Union"
-                        className="h-12 w-auto"
-                    />
+                    <div className="flex flex-row items-center space-x-6">
+                        <img
+                            src={euLogo}
+                            alt="Co-funded by the European Union"
+                            className="h-12 w-auto"
+                        />
+                        <img
+                            src={ccLicense}
+                            alt="Co-funded by the European Union"
+                            className="h-12 w-auto"
+                        />
+                    </div>
                     <div className="text-sm text-gray-600 text-center max-w-3xl space-y-4">
                         <p>
                             This project has been funded with support from the European Commission under the Grant Agreement Number <strong>2021–1-ES01-KA220-HED-000027588</strong>. This website reflects the views only of the authors, and the Commission cannot be held responsible for any use which may be made of the information contained therein.
