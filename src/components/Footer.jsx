@@ -1,4 +1,5 @@
 import euLogo from '../eu-logo.png'
+import ccLicense from '../by-nc-sa.eu.png'
 
 export default function Footer() {
     return (
@@ -7,6 +8,11 @@ export default function Footer() {
                 <div className="flex flex-col items-center space-y-6">
                     <img
                         src={euLogo}
+                        alt="Co-funded by the European Union"
+                        className="h-12 w-auto"
+                    />
+                    <img
+                        src={ccLicense}
                         alt="Co-funded by the European Union"
                         className="h-12 w-auto"
                     />
