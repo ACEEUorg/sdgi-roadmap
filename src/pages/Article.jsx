@@ -1,4 +1,4 @@
-import React from "react";
+
 import MapChart from "../components/MapChart";
 
 const Article = () => {

@@ -1,7 +1,6 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 
-const TeamMember = ({ name, title, position, area, areaLink, avatar }) => {
+const TeamMember = ({ name, title, area, areaLink, avatar }) => {
   return (
     <div className="team-member p-4 flex items-start gap-4">
       {avatar && (
@@ -29,7 +28,6 @@ const TeamMember = ({ name, title, position, area, areaLink, avatar }) => {
 TeamMember.propTypes = {
   name: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  position: PropTypes.string.isRequired,
   area: PropTypes.string.isRequired,
   areaLink: PropTypes.string.isRequired,
   avatar: PropTypes.string

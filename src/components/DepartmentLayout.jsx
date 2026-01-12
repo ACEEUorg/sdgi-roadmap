@@ -1,5 +1,3 @@
-import React from 'react';
-import { Languages } from 'lucide-react';
 import PropTypes from 'prop-types';
 import TeamSection from './TeamSection';
 import RoadmapOverview from './RoadmapOverview';
@@ -87,6 +85,8 @@ const DepartmentLayout = ({
 DepartmentLayout.propTypes = {
   title: PropTypes.string.isRequired,
   language: PropTypes.string.isRequired,
+  countryCode: PropTypes.string.isRequired,
+  countryName: PropTypes.string.isRequired,
   universityName: PropTypes.string.isRequired,
   departmentName: PropTypes.string.isRequired,
   teamMembers: PropTypes.arrayOf(PropTypes.object).isRequired,
@@ -94,6 +94,7 @@ DepartmentLayout.propTypes = {
   measures: PropTypes.arrayOf(PropTypes.object).isRequired,
   pdfLink: PropTypes.string.isRequired,
   pdfTranslationLink: PropTypes.string.isRequired,
+  pdfTranslationLinkGerman: PropTypes.string.isRequired,
   introduction: PropTypes.string.isRequired,
   socialLinks: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string.isRequired,

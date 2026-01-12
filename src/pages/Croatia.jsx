@@ -1,4 +1,4 @@
-import React from 'react';
+
 import DepartmentLayout from '../components/DepartmentLayout';
 const bojana = "/people/bojana.jpg";
 const nena_roncevic = "/people/nena_roncevic.jpeg";

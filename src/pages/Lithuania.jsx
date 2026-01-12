@@ -1,4 +1,4 @@
-import React from 'react';
+
 import DepartmentLayout from '../components/DepartmentLayout';
 const asta = "/people/asta.jpeg";
 const vaida = "/people/vaida.jpg";
