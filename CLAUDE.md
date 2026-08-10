@@ -8,7 +8,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Build for production**: `npm run build`
 - **Lint code**: `npm run lint`
 - **Preview production build**: `npm run preview`
-- **Deploy to GitHub Pages**: `npm run deploy` (runs build first)
 
 ## Architecture Overview
 
@@ -60,4 +59,4 @@ This is a React-based web application showcasing SDG departmental roadmaps for t
 - Uses ES modules (`"type": "module"` in package.json)
 - Vite handles static asset serving from `/public/`
 - No backend API - all content is static
-- Deployed via GitHub Pages using gh-pages package
+- Deployed to GitHub Pages automatically by the GitHub Actions workflow (`.github/workflows/deploy.yml`) on every push to `master`
