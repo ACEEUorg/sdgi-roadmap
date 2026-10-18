@@ -1,4 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind typography;
+/* Scan only the app sources (like the old v3 `content` list), never docs or config. */
+@import 'tailwindcss' source(none);
+@source '../index.html';
+@source '../src';
+
+@plugin '@tailwindcss/typography';
+
+/*
+  Tailwind CSS v4 compatibility. Two preflight defaults changed in v4:
+  the default border color is now `currentcolor` (was gray-200), and
+  buttons no longer get `cursor: pointer`. These base styles keep the v3
+  behaviour the markup was written against.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}

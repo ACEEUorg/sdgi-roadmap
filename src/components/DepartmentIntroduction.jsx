@@ -65,7 +65,7 @@ const DepartmentIntroduction = ({ introduction, socialLinks, country }) => {
 
             {selectedPhoto && (
                 <div
-                    className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
+                    className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
                     onClick={() => setSelectedPhoto(null)}
                 >
                     <div className="relative max-w-4xl max-h-[90vh]">
@@ -75,7 +75,7 @@ const DepartmentIntroduction = ({ introduction, socialLinks, country }) => {
                             className="max-w-full max-h-[90vh] object-contain"
                         />
                         <button
-                            className="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2 hover:bg-opacity-75"
+                            className="absolute top-4 right-4 text-white bg-black/50 rounded-full p-2 hover:bg-black/75"
                             onClick={() => setSelectedPhoto(null)}
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -59,7 +59,7 @@ const Navigation = () => {
                     <div className="md:hidden">
                         <button
                             onClick={toggleMenu}
-                            className="text-sky-900 hover:text-sky-700 focus:outline-none"
+                            className="text-sky-900 hover:text-sky-700 focus:outline-hidden"
                         >
                             {isOpen ? (
                                 <X className="h-6 w-6" />
