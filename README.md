@@ -11,20 +11,23 @@ A React-based web application showcasing departmental roadmaps for implementing 
   - Universitat de Girona (Spain)
 - Team member profiles
 - Downloadable PDF roadmaps
-- Responsive design with Tailwind CSS
+- Responsive design with Tailwind CSS 4
 
 ## Tech Stack
 
 - React 18
 - Vite
-- Tailwind CSS
-- DaisyUI
+- Tailwind CSS 4 (with the Typography plugin)
 - React Simple Maps
 - React Router
 
-1. Install dependencies:
+## Development
+
+Requires Node.js 20 or newer (`.nvmrc` pins 22; run `nvm use`).
+
+1. Install dependencies (`--legacy-peer-deps` is needed because `@vx/pattern` declares an old React peer dependency):
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    ```
 
 2. Start development server:
